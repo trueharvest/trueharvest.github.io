@@ -1,4 +1,12 @@
 body 
 {
     background-color: lightblue;
+    margin: 25px 400px;
+    font-family: Arial, sans-serif;
+}
+
+h1
+{
+    text-align: center;
+    margin: auto;
 }
