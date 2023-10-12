@@ -3,58 +3,107 @@
 
 <head>
     <title>True Harvest</title>
-    <link rel="stylesheet" href="index.css">
+    <!-- Add Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="bg-light">
 
-    <div class="container">
-        <h1>True Harvest</h1>
+    <div class="container mt-5">
+        <h1 class="text-center display-4 mb-5">True Harvest</h1>
 
+        <div class="row mb-5">
+            <div class="col-lg-6">
+                <h2 class="mb-4">Project Objectives:</h2>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Develop a mobile application utilizing GIS (Geographic Information System) and image processing techniques to determine the correct utilization of agricultural loans.</li>
+                    <li class="list-group-item">Provide farmers and agricultural experts with a tool to effectively manage agricultural loans.</li>
+                    <li class="list-group-item">Detect misuse of agricultural loans to prevent fraud and promote the efficient use of resources.</li>
+                </ul>
+            </div>
+            <div class="col-lg-6">
+                <h2 class="mb-4">Contributors:</h2>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">Deniz Semih Özal</li>
+                    <li class="list-group-item">Ağahan Sözeri</li>
+                    <li class="list-group-item">Ömer Faruk Coşar</li>
+                    <li class="list-group-item">Yağız Alkılıç</li>
+                    <li class="list-group-item">Mehmet Ali Erol</li>
+                </ul>
+            </div>
+        </div>
 
-        <h2>Project Objectives:</h2>
-        <ul>
-            <li>Develop a mobile application utilizing GIS (Geographic Information System) and image processing
-                techniques to determine the correct utilization of agricultural loans.</li><br />
-            <li>Provide farmers and agricultural experts with a tool to effectively manage agricultural loans.</li>
-            <br />
-            <li>Detect misuse of agricultural loans to prevent fraud and promote the efficient use of resources.</li>
-            <br />
-        </ul>
+        <h2 class="mb-4">Project Stages and Functionalities:</h2>
+        <div class="row mb-5">
+            <!-- Using Bootstrap cards for each functionality -->
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">User Authentication</h5>
+                        <p class="card-text">Implement an authentication system for users to log into the application, ensuring that only authorized individuals can use it.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">GIS Integration</h5>
+                        <p class="card-text">Collect geographic data of agricultural lands from farmers and integrate this data into the application. Visualize agricultural lands on maps.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Image Processing</h5>
+                        <p class="card-text">Monitor the health of agricultural lands using drone or satellite imagery.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Monitoring Loan Usage</h5>
+                        <p class="card-text">Track how loans are being spent on agricultural areas.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Data Analysis and Evaluation</h5>
+                        <p class="card-text">Provide insights into the effectiveness and efficiency of loan utilization by analyzing agricultural data. Detect misuse and take necessary preventive measures.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">Security and Data Privacy</h5>
+                        <p class="card-text">Implement necessary security measures to protect user's personal data and geographic information.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 mb-4">
+                <div class="card h-100 shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">User Feedback</h5>
+                        <p class="card-text">Incorporate a mechanism to collect user feedback about the application. Continuously improve the application based on user feedback.</p>
+                    </div>
+                </div>
+            </div>
 
-        <h2>Project Stages and Functionalities:</h2>
-        <ul>
-            <li><strong>User Authentication:</strong> Implement an authentication system for users to log into the
-                application, ensuring that only authorized individuals can use it.</li><br />
-            <li><strong>Geographic Information System (GIS) Integration:</strong> Collect geographic data of
-                agricultural lands from farmers and integrate this data into the application. Visualize agricultural
-                lands on maps.</li><br />
-            <li><strong>Image Processing Integration:</strong> Monitor the health of agricultural lands using drone or
-                satellite imagery.</li><br />
-            <li><strong>Monitoring Loan Usage:</strong> Track how loans are being spent on agricultural areas.</li><br/>
-            <li><strong>Data Analysis and Evaluation:</strong> Provide insights into the effectiveness and efficiency of
-                loan utilization by analyzing agricultural data. Detect misuse and take necessary preventive measures.
-            </li><br />
-            <li><strong>Security and Data Privacy:</strong> Implement necessary security measures to protect user's
-                personal data and geographic information.</li><br />
-            <li><strong>User Feedback:</strong> Incorporate a mechanism to collect user feedback about the application.
-                Continuously improve the application based on user feedback.</li><br />
-        </ul>
+        </div>
 
-        <p>A mobile application incorporating these functionalities can contribute to the more effective and efficient
-            utilization of agricultural loans, potentially increasing farmers' incomes and supporting the sustainability
-            of the agricultural sector.</p>
-
-        <h2>Contributors:</h2>
-        <ul>
-            <li>Deniz Semih Özal</li>
-            <li>Ağahan Sözeri</li>
-            <li>Ömer Faruk Coşar</li>
-            <li>Yağız Alkılıç</li>
-            <li>Mehmet Ali Erol</li>
-        </ul>
-
+        <div class="text-center p-5">
+            <p class="lead">A mobile application incorporating these functionalities can contribute to the more effective and efficient utilization of agricultural loans, potentially increasing farmers' incomes and supporting the sustainability of the agricultural sector.</p>
+        </div>
     </div>
+
+    <!-- Add Bootstrap JS and Popper.js -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
 </body>
 
